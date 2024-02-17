@@ -7,8 +7,8 @@ use bevy::{
 };
 
 mod globals;
-mod components;
-use components::*;
+mod construct;
+use construct::*;
 
 fn main() {
     App::new()
